@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="2.0" init="Application">
+    <Setting Name="Loader::Agent::CommonJS###100-ShiftSelect" Required="0" Valid="1">
+        <Description Translatable="1">Loads ShiftSelect JS globally in the agent interface (Gmail-style shift+click range selection of ticket checkboxes in overview tables).</Description>
+        <Navigation>Frontend::Base::Loader</Navigation>
+        <Value>
+            <Array>
+                <Item>ShiftSelect.js</Item>
+            </Array>
+        </Value>
+    </Setting>
+</otrs_config>

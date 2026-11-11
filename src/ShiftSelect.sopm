@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>ShiftSelect</Name>
+    <Version>1.0.0</Version>
+    <Framework>6.5.x</Framework>
+    <Vendor>Katla</Vendor>
+    <URL>https://github.com/hollowRevival/ShiftSelect</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+    <Description Lang="sv">Gmail-stil shift+klick-markering av flera ärende-checkboxar samtidigt i ärendeöversikter (kö, sök, status, eskalering m.fl.).</Description>
+    <Description Lang="en">Gmail-style shift+click range selection of ticket checkboxes in overview tables (queue, search, status, escalation, etc).</Description>
+    <PackageIsDownloadable>1</PackageIsDownloadable>
+    <ChangeLog Version="1.0.0" Date="2026-11-11">First release.</ChangeLog>
+    <Filelist>
+        <File Permission="660" Location="Kernel/Config/Files/XML/ShiftSelect.xml" />
+        <File Permission="660" Location="var/httpd/htdocs/js/ShiftSelect.js" />
+    </Filelist>
+</otrs_package>
